@@ -6,7 +6,7 @@
 ```javascripts
 var fs = require('fs');
 fs.readFile(__filename , (err, buffer) => {
-if (err) return console.log(err);
+  if (err) return console.log(err);
   console.log(buffer.toString())
 })
 ```
