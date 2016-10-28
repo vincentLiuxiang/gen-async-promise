@@ -49,7 +49,7 @@ var mysql = require('mysql');
 var pool  = mysql.createPool({
   ...
 });
-pool = gap(pool);
+var query = gap(pool.query);
 var r = async function() {
   var [rows, fields] = await pool('SELECT 1 + 1 AS solution');
 }
