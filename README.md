@@ -4,11 +4,11 @@
 
 ## for example
 ```javascripts
-  var fs = require('fs');
-  fs.readFile(__filename , (err, buffer) => {
-    if (err) return console.log(err);
-    console.log(buffer.toString())
-  })
+var fs = require('fs');
+fs.readFile(__filename , (err, buffer) => {
+if (err) return console.log(err);
+  console.log(buffer.toString())
+})
 ```
 gen-async-promise :
 
