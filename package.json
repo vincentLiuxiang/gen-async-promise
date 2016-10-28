@@ -1,0 +1,26 @@
+{
+  "name": "gen-async-promise",
+  "version": "0.0.1",
+  "description": "Automatically transform callback function to  async/await based promise function",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "callback",
+    "async",
+    "await",
+    "promise"
+  ],
+  "author": "liuxiang",
+  "license": "MIT",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentLiuxiang/gen-async-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vincentLiuxiang/gen-async-promise/issues"
+  },
+  "homepage": "https://github.com/vincentLiuxiang/gen-async-promise#readme"
+}
