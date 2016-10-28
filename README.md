@@ -51,7 +51,7 @@ var pool  = mysql.createPool({
 });
 var query = gap(pool.query);
 var r = async function() {
-  var [rows, fields] = await pool('SELECT 1 + 1 AS solution');
+  var [rows, fields] = await query('SELECT 1 + 1 AS solution');
 }
 r()
 ```
