@@ -1,6 +1,6 @@
 {
   "name": "gen-async-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically transform callback function to  async/await based promise function",
   "main": "index.js",
   "scripts": {
