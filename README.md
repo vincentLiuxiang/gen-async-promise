@@ -12,7 +12,7 @@ fs.readFile(__filename , (err, buffer) => {
 ```
 gen-async-promise :
 
-```
+```javascripts
 var gap = require('gen-async-promise');
 var fs = require('fs');
 var readFile = gap(fs.readFile);
@@ -30,7 +30,7 @@ try/catch will capture the error;
 
 if the callback function contains More than two parameters, just like:
 
-```
+```javascripts
 var mysql = require('mysql');
 var pool  = mysql.createPool({
   ...
@@ -43,7 +43,7 @@ pool.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
 ```
 the callback function contains err, rows, fields three parameters , in the case, gen-async-promise will return a array:
 
-```
+```javascripts
 var gap = require('gen-async-promise');
 var mysql = require('mysql');
 var pool  = mysql.createPool({
@@ -57,7 +57,7 @@ r()
 ```
 another:
 
-```
+```javascripts
 var gap = require('gen-async-promise');
 
 var sleep = gap(function (m,cb) {
