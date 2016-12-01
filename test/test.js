@@ -67,7 +67,7 @@ test('null input param', async (t) => {
 test('cb error', async (t) => {
 	var errorAsync = gap(function (cb) {
 		setTimeout(() => {
-			cb(new Error('null input param'))
+			cb(new Error('no input param'))
 		}, 100);
 	});
 
@@ -80,7 +80,7 @@ test('cb error', async (t) => {
 		error = e;
 	}
 
-	if (error.message === 'null input param') {
+	if (error.message === 'no input param') {
 		t.pass()
 	} else {
 		t.fail()
