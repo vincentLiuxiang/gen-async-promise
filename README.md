@@ -1,5 +1,7 @@
 # gen-async-promise
 
+[![Build Status](https://travis-ci.org/vincentLiuxiang/gen-async-promise.svg?branch=master)](https://travis-ci.org/vincentLiuxiang/gen-async-promise) [![Coverage Status](https://coveralls.io/repos/github/vincentLiuxiang/gen-async-promise/badge.svg?branch=master)](https://coveralls.io/github/vincentLiuxiang/gen-async-promise?branch=master)
+
 > the goal of gen-async-promise is transform all of the callback based async functions to an async/await based promise function
 
 ## for example
